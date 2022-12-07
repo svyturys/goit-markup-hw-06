@@ -947,6 +947,7 @@ colorffffff */
 }
 
 .modal-form-text {
+  margin-top: 0;
   font-weight: 700;
   font-size: 20px;
   line-height: calc(23 / 20);
@@ -1015,7 +1016,9 @@ colorffffff */
   color: #757575;
 }
 
-.form-massage {
+.form-message {
+  display: block;
+
   width: 448px;
   height: 120px;
   resize: none;
@@ -1024,7 +1027,7 @@ colorffffff */
   border-radius: 4px;
 }
 
-.form-massage:placeholder-shown {
+.form-message:placeholder-shown {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
